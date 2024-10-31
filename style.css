@@ -1,0 +1,161 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #121113 url("https://tse4.mm.bing.net/th?id=OIP.LqhJxi56CsRM4TsThnuzdAHaHa&pid=Api&P=0&h=220") no-repeat center center fixed;
+    background-size: 100% 100%;
+    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section.fireworks {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d0de0;
+}
+
+section .content {
+    z-index: 1;
+    display: grid;
+    text-align: center;
+    padding: 20px;
+}
+
+section .content h2 {
+    font-size: 5em;
+    color: #e21313;
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+}
+
+section .content h2 span {
+    display: block;
+    font-size: 0.4em;
+    color: #e9e1e1;
+    background:transparent;
+    padding: 5px 10px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.fireworks {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@media(max-width:768px) {
+    
+} */
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #121113 url("https://tse4.mm.bing.net/th?id=OIP.LqhJxi56CsRM4TsThnuzdAHaHa&pid=Api&P=0&h=220") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section.fireworks {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d0de0;
+}
+
+section .content {
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+section .content h2 {
+    font-size: 5em;
+    color: #e21313;
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+}
+
+section .content h2 span {
+    display: block;
+    font-size: 0.4em;
+    color: #e9e1e1;
+    background: transparent;
+    padding: 5px 10px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.fireworks {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Media Query for devices with max width 768px (Tablets and Small Devices) */
+/* @media (max-width: 768px) {
+    section .content h2 {
+        font-size: 3em;
+    }
+
+    section .content h2 span {
+        font-size: 0.5em;
+    }
+} */
+
+/* Media Query for devices with max width 480px (Mobile Devices) */
+@media (max-width: 480px) {
+    body {
+        background-size: cover;
+    }
+
+    section .content h2 {
+        font-size: 2em;
+    }
+
+    section .content h2 span {
+        font-size: 0.6em;
+    }
+}
